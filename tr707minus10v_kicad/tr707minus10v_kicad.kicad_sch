@@ -465,6 +465,8 @@
 
   (no_connect (at 65.405 78.74) (uuid 374483d5-5f57-4ef7-81f8-7c1cbc3d91f7))
   (no_connect (at 65.405 83.82) (uuid 374483d5-5f57-4ef7-81f8-7c1cbc3d91f8))
+  (no_connect (at 157.48 45.72) (uuid 7cc910f2-74fd-451b-bb1b-0a6c296c61e3))
+  (no_connect (at 147.32 45.72) (uuid 971a8fcb-9e8f-4948-8e6a-c39458546e0a))
 
   (wire (pts (xy 100.33 61.595) (xy 106.68 61.595))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -771,6 +773,24 @@
     (pin "2" (uuid aea6ad51-ab12-4776-9e3c-4621304d8e81))
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 147.32 40.64 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7c2084e9-3b2e-4e85-bb04-4d1893a867c2)
+    (property "Reference" "J5" (id 0) (at 149.86 39.3699 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "NC" (id 1) (at 149.86 41.9099 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 147.32 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 147.32 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6c1bd5d9-fec6-47a5-aae3-ae852ddca055))
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 129.54 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8587e4c3-0836-4120-bfab-a7a2358529e9)
@@ -896,6 +916,24 @@
     )
     (pin "1" (uuid 5e63cadd-7129-4602-85ba-a2e3a92d35da))
     (pin "2" (uuid f4ce5382-76f5-4be8-8e80-743a87779c99))
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 157.48 40.64 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid d9da68a9-f2d1-4425-a74e-6ab89cb3f8c9)
+    (property "Reference" "J4" (id 0) (at 160.02 39.3699 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "NC" (id 1) (at 160.02 41.9099 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 157.48 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 157.48 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f49fcd9c-8686-4902-8c11-13e0344b8cd1))
   )
 
   (symbol (lib_id "power:GND") (at 111.125 78.74 0) (unit 1)
@@ -1117,6 +1155,12 @@
     )
     (path "/8587e4c3-0836-4120-bfab-a7a2358529e9"
       (reference "J3") (unit 1) (value "GND") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/d9da68a9-f2d1-4425-a74e-6ab89cb3f8c9"
+      (reference "J4") (unit 1) (value "NC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/7c2084e9-3b2e-4e85-bb04-4d1893a867c2"
+      (reference "J5") (unit 1) (value "NC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/2f215f15-3d52-4c91-93e6-3ea03a95622f"
       (reference "U1") (unit 1) (value "ICL7660") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
