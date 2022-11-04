@@ -520,7 +520,6 @@
   (no_connect (at 65.405 78.74) (uuid 374483d5-5f57-4ef7-81f8-7c1cbc3d91f7))
   (no_connect (at 65.405 83.82) (uuid 374483d5-5f57-4ef7-81f8-7c1cbc3d91f8))
   (no_connect (at 102.87 38.735) (uuid 7cc910f2-74fd-451b-bb1b-0a6c296c61e3))
-  (no_connect (at 92.71 38.735) (uuid 971a8fcb-9e8f-4948-8e6a-c39458546e0a))
 
   (polyline (pts (xy 166.37 13.97) (xy 166.37 42.545))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -713,6 +712,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1c4e5c7-ae2a-4aef-bd94-506341660a45))
+  )
+
+  (symbol (lib_id "power:-10V") (at 92.71 38.735 180) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 17f6adf3-28bc-4aa2-872a-3c35562f892f)
+    (property "Reference" "#PWR0101" (id 0) (at 92.71 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "-10V" (id 1) (at 92.71 43.815 0))
+    (property "Footprint" "" (id 2) (at 92.71 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 92.71 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a76ae31-16b0-47f2-b1cf-b4574e0ff4e3))
   )
 
   (symbol (lib_id "power:GND") (at 58.42 121.92 0) (unit 1)
@@ -1425,6 +1440,9 @@
     )
     (path "/18b80f4a-06ff-4bd9-b58c-ccc017889c27"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/17f6adf3-28bc-4aa2-872a-3c35562f892f"
+      (reference "#PWR0101") (unit 1) (value "-10V") (footprint "")
     )
     (path "/f7ef557d-9a36-48f1-b097-dfeecd6cd100"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
