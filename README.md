@@ -1,10 +1,14 @@
 # tr707_negative_vibes
 this is a kicad project for a dc/dc converter for the roland tr707 and 727 drum machine. it can replace the negative dc supply with the hard to find Sumida coil in the tr707.
 
-it takes the nominal 12v input voltage and transforms it to a nominal negative 10v
+it takes the nominal 12v input voltage and transforms it to a negative 10v
 
 it is based on an ICL7660 negative voltage dc/dc converter.
-the design is based on and idea by harry axten who makes a really nice eprom swap mod for the tr707.
+the design is based on an idea by harry axten who makes a really nice eprom swap mod for the tr707.
+
+dual parallel ICL7660 chips provide a stable -10v supply.
+
+there is a footprint for an extra filter capacitor, but it shouldn't be necessary.
 
 Always check random designs from the internet before connecting them to your precious drum machine.
 
