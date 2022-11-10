@@ -313,7 +313,7 @@
     (property "Sheetfile" "tr707minus10v_kicad.kicad_sch")
     (property "Sheetname" "")
     (path "/4b2156b2-0837-4f7d-b2c0-eb8481c9c08d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at -0.05 -1.35 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 078c6dad-9261-428d-850a-da67eaf83b69)
@@ -332,7 +332,7 @@
     (property "Sheetfile" "tr707minus10v_kicad.kicad_sch")
     (property "Sheetname" "")
     (path "/85bc8705-bee0-45d6-8e4d-b8017482b5d8")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at -0.05 -1.35 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6bc73e5d-43fd-474c-bc3d-f0c34e3d146f)
@@ -576,6 +576,7 @@
     (property "Sheetfile" "tr707minus10v_kicad.kicad_sch")
     (property "Sheetname" "")
     (path "/2d35093b-676f-462f-bfc5-38ce603d7d8a")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa88c4f2-b7f1-4fd3-9f0a-821f64fb6ef6)
@@ -689,7 +690,7 @@
     (property "Sheetfile" "tr707minus10v_kicad.kicad_sch")
     (property "Sheetname" "")
     (path "/4d3e56d8-6cf3-40cf-96ad-6c4339b1951d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at -0.05 -1.35 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c3f3ae7-5403-451b-940c-544f4919a2a4)
