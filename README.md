@@ -1,17 +1,21 @@
 # tr707_negative_vibes
-this is a kicad project for a dc/dc converter for the roland tr707 and 727 drum machine. it can replace the negative dc supply with the hard to find Sumida coil in the tr707.
+This is a kicad project for a dc/dc converter for the roland tr707 and 727 drum machine. it can replace the negative dc supply with the hard to find Sumida coil in the tr707.
 
-it takes the nominal 12v input voltage and transforms it to a negative 10v
+It takes the nominal 12v input voltage and transforms it to a negative 10v
 
-it is based on an ICL7660 negative voltage dc/dc converter.
-the design is based on an idea by harry axten who makes a really nice eprom swap mod for the tr707.
+It is based on an ICL7660 negative voltage dc/dc converter.
+The design is based on an idea by harry axten who makes a really nice eprom swap mod for the tr707.
 
-installation:
 
-desolder the following components: Q1 Q2 T1(the sumida coil) D2 D3 D18 C7 C8 R1 R2
 
-fit 5 pinheaders to the bottom of the Negative vibes Pcb and solder them onto the tr707 main board.
-you could fit pin header sockets if you want, but its probably better to just solder them directly.
+Installation:
+
+Desolder the following components: Q1 Q2 T1(the sumida coil) D2 D3 D18 C7 C8 R1 R2
+
+Fit 5 2.54mm male/male pinheaders to the bottom of the Negative vibes Pcb and solder them onto the tr707 main board.
+You could fit pin header sockets if you want, but its probably better to just solder them directly.
+
+thats it!
 
 
 dual parallel ICL7660 chips provide a stable -10v supply. the jumper jp1 can be cut to disable the second ICL7660, but you probably will never want to do this.
@@ -28,7 +32,7 @@ i will probably respond to messages but i don't officially offer support. and i 
 
 i'm much rather that you buy the pcb from me than producing your own. but i've put everything on github so that if i ever stop producing them then it will be possible for you to have a batch made, in this case i ask you to make them only for your own repair work and offer any spares at close to cost to the the synth repair community.
 
-the first batch i will sell directly, and subsequent batches will be available for sale at an online shop. i'm currently waiting for the first production batch to arrive.
+The first batch i will sell directly, and subsequent batches will be available for sale at an online shop. the first batch has just arrived... i will be contacting everybody who expressed interest. if i don't get in touch, send me an email.
 
 you can contact me at ewanuno@gmail.com
 
