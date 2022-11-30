@@ -26,9 +26,9 @@ Always check random designs from the internet before connecting them to your pre
 
 this is not a user installable modification, it is intended for synth repair people who know what they are doing and probably could have made it themselves. only install it if you take full responsibility for your work.
 
-you should really run your tr707 with a 12v center negative psu. lots of people run them with  a 9v boss psu, *maybe* nothing bad will happen, but it's not kosher. According to the service manual it should be 12v. the negative vibes psu is tested to work properly with a 12v external psu.
+You should really run your tr707 with a 12v center negative psu. lots of people run them with  a 9v boss psu, *maybe* nothing bad will happen, but it's not kosher. According to the service manual it should be 12v. The negative vibes psu is tested to work properly with a 12v external psu.
 
-i will probably respond to messages but i don't officially offer support. and i probably can't answer any questions that the ICL7660 datasheet and TR707 service manual don't already answer.
+I will probably respond to messages but i don't officially offer support. and i probably can't answer any questions that the ICL7660 datasheet and TR707 service manual don't already answer.
 
 i'm much rather that you buy the pcb from me than producing your own. but i've put everything on github so that if i ever stop producing them then it will be possible for you to have a batch made, in this case i ask you to make them only for your own repair work and offer any spares at close to cost to the the synth repair community.
 
