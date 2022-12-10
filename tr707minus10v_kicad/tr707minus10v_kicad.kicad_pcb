@@ -828,7 +828,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 26d6e849-8105-49a9-9a5c-e15dcec499b8)
     )
-    (fp_text value "NC" (at 0.095 1.905 90) (layer "F.SilkS")
+    (fp_text value "-VOUT" (at 0.095 1.905 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c02d5394-8230-4886-a715-914a45cadce2)
     )
