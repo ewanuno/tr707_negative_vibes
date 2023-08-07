@@ -6,7 +6,7 @@ It takes the nominal 12v input voltage and transforms it to a negative 10v
 It is based on an ICL7660 negative voltage dc/dc converter.
 The design is based on an idea by harry axten who makes a really nice eprom swap mod for the tr707.
 
-
+moe info can be found at: https://synth.ewancolsell.com/home/tr707-negative-vibes-10v-psu-replacement
 
 Installation:
 
@@ -32,7 +32,9 @@ I will probably respond to messages but i don't officially offer support. and i 
 
 i'm much rather that you buy the pcb from me than producing your own. but i've put everything on github so that if i ever stop producing them then it will be possible for you to have a batch made, in this case i ask you to make them only for your own repair work and offer any spares at close to cost to the the synth repair community.
 
-The first batch i will sell directly, and subsequent batches will be available for sale at an online shop. the first batch has just arrived... i will be contacting everybody who expressed interest. if i don't get in touch, send me an email.
+The modules have been installed and tested by enough people for me to say that it works as intended.
+
+i have fully assembled boards available.
 
 you can contact me at ewanuno@gmail.com
 
